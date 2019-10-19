@@ -29,9 +29,10 @@ class Customer : IDisplay
     }
     
     func printMyData() {
-        print("**************************************************************")
-        print("Customer Id : \(customerId)")
-        print("Full Name : \(fullName)")
+        print("*********************    Customer Information    ********************")
+        
+        print("\nCustomer Id : \(customerId)")
+        print("Full Name : \(fullName)\n")
         
         
     }
