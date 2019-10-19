@@ -32,7 +32,8 @@ class Customer : IDisplay
         print("*********************    Customer Information    ********************")
         
         print("\nCustomer Id : \(customerId)")
-        print("Full Name : \(fullName)\n")
+        print("Full Name : \(fullName)")
+        print("Email : \(email!)\n")
         print("*********************    Bill Information    ********************\n")
         
         for i in billDictionary.values
