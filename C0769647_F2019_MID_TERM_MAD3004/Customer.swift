@@ -14,8 +14,7 @@ class Customer : IDisplay
         <#code#>
     }
     
-    
-    
+
     var customerId : String
     var firstName : String
     var lastName : String!
