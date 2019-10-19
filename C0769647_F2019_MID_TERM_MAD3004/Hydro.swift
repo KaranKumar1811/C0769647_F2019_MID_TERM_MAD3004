@@ -7,8 +7,10 @@
 //
 
 import Foundation
-class Hydro : Bill
+class Hydro : Bill, IDisplay
 {
+    
+    
     var agencyName:String
     var unitsConsumed: Float
     var billAmount : Float
@@ -20,6 +22,10 @@ class Hydro : Bill
         self.billAmount=billAmount
         super.init(billId: billId, billDate: billDate, billType: billType)
         
+    }
+    
+    func printMyData() {
+        <#code#>
     }
     
 }
