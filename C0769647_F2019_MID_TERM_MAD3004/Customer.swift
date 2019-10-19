@@ -10,11 +10,6 @@ import Foundation
 import Foundation
 class Customer : IDisplay
 {
-    func printMyData() {
-        <#code#>
-    }
-    
-
     var customerId : String
     var firstName : String
     var lastName : String!
@@ -31,5 +26,13 @@ class Customer : IDisplay
         self.email = email
         self.billDictionary = billDictionary
         self.fullName = firstName + lastName
+    }
+    
+    func printMyData() {
+        print("**************************************************************")
+        print("Customer Id : \(customerId)")
+        print("Full Name : \(fullName)")
+        
+        
     }
 }
