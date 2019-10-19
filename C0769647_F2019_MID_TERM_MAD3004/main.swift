@@ -19,3 +19,9 @@ var m1 = Mobile(manufacturerName: "Samsung", planName: "BigGig", mobileNumber: "
 var h1 = Hydro(agencyName: "Toronto Power", unitsConsumed: 231.4, billAmount: 743, billId: "HBill1", billType: Bill.Types.Hydro, billDate: date_3!)
 var c1 = Customer(customerId: "C01", firstName: "Karan ", lastName: "Kumar", email: "@gmail.com", billDictionary : [i1.billId:i1,m1.billId:m1,h1.billId:h1])
 
+var custDictionary = Dictionary<String,Customer>()
+
+custDictionary.updateValue(c1, forKey: c1.customerId)
+
+
+
