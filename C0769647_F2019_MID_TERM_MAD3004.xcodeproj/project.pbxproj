@@ -18,6 +18,7 @@
 		9B778549235BC57D00CBAE58 /*  CurrencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */; };
 		9B77854B235BC66400CBAE58 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77854A235BC66400CBAE58 /* DateExtension.swift */; };
 		9B77854D235BC71400CBAE58 /* MinuteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77854C235BC71400CBAE58 /* MinuteExtension.swift */; };
+		9B77854F235BC77C00CBAE58 /* DataUsedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77854E235BC77C00CBAE58 /* DataUsedExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CurrencyExtension.swift"; sourceTree = "<group>"; };
 		9B77854A235BC66400CBAE58 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		9B77854C235BC71400CBAE58 /* MinuteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteExtension.swift; sourceTree = "<group>"; };
+		9B77854E235BC77C00CBAE58 /* DataUsedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsedExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */,
 				9B77854A235BC66400CBAE58 /* DateExtension.swift */,
 				9B77854C235BC71400CBAE58 /* MinuteExtension.swift */,
+				9B77854E235BC77C00CBAE58 /* DataUsedExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				9B77853E235BB9C300CBAE58 /* Hydro.swift in Sources */,
 				9B77854D235BC71400CBAE58 /* MinuteExtension.swift in Sources */,
+				9B77854F235BC77C00CBAE58 /* DataUsedExtension.swift in Sources */,
 				9B77854B235BC66400CBAE58 /* DateExtension.swift in Sources */,
 				9B778540235BB9D800CBAE58 /* Customer.swift in Sources */,
 				9B778546235BBB2400CBAE58 /* Insurance.swift in Sources */,
