@@ -15,10 +15,11 @@
 		9B778542235BB9EA00CBAE58 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778541235BB9EA00CBAE58 /* Bill.swift */; };
 		9B778544235BB9FC00CBAE58 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778543235BB9FC00CBAE58 /* IDisplay.swift */; };
 		9B778546235BBB2400CBAE58 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778545235BBB2400CBAE58 /* Insurance.swift */; };
-		9B778549235BC57D00CBAE58 /*  CurrencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */; };
+		9B778549235BC57D00CBAE58 /* CurrencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778548235BC57D00CBAE58 /* CurrencyExtension.swift */; };
 		9B77854B235BC66400CBAE58 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77854A235BC66400CBAE58 /* DateExtension.swift */; };
 		9B77854D235BC71400CBAE58 /* MinuteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77854C235BC71400CBAE58 /* MinuteExtension.swift */; };
 		9B77854F235BC77C00CBAE58 /* DataUsedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77854E235BC77C00CBAE58 /* DataUsedExtension.swift */; };
+		9B778551235BC7D000CBAE58 /* UnitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778550235BC7D000CBAE58 /* UnitExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,10 +44,11 @@
 		9B778541235BB9EA00CBAE58 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9B778543235BB9FC00CBAE58 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B778545235BBB2400CBAE58 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
-		9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CurrencyExtension.swift"; sourceTree = "<group>"; };
+		9B778548235BC57D00CBAE58 /* CurrencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExtension.swift; sourceTree = "<group>"; };
 		9B77854A235BC66400CBAE58 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		9B77854C235BC71400CBAE58 /* MinuteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteExtension.swift; sourceTree = "<group>"; };
 		9B77854E235BC77C00CBAE58 /* DataUsedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsedExtension.swift; sourceTree = "<group>"; };
+		9B778550235BC7D000CBAE58 /* UnitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +97,11 @@
 		9B778547235BC52D00CBAE58 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */,
+				9B778548235BC57D00CBAE58 /* CurrencyExtension.swift */,
 				9B77854A235BC66400CBAE58 /* DateExtension.swift */,
 				9B77854C235BC71400CBAE58 /* MinuteExtension.swift */,
 				9B77854E235BC77C00CBAE58 /* DataUsedExtension.swift */,
+				9B778550235BC7D000CBAE58 /* UnitExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -168,8 +171,9 @@
 				9B778546235BBB2400CBAE58 /* Insurance.swift in Sources */,
 				9B77853C235BB9AE00CBAE58 /* Mobile.swift in Sources */,
 				9B778544235BB9FC00CBAE58 /* IDisplay.swift in Sources */,
+				9B778551235BC7D000CBAE58 /* UnitExtension.swift in Sources */,
 				9B77853A235BB9A400CBAE58 /* Internet.swift in Sources */,
-				9B778549235BC57D00CBAE58 /*  CurrencyExtension.swift in Sources */,
+				9B778549235BC57D00CBAE58 /* CurrencyExtension.swift in Sources */,
 				9B778542235BB9EA00CBAE58 /* Bill.swift in Sources */,
 				9B778533235BB90600CBAE58 /* main.swift in Sources */,
 			);
