@@ -15,8 +15,18 @@ class Insurance
         case Business
     }
     var typeOfInsurance : typeInsurance
-    var Provider : String
+    var provider : String
     var startDate : Date
     var endDate : Date
     var totalInstallmentAmount :Int
+    
+    
+    init(Type: typeInsurance,Provider : String, StartDate: Date, EndDate: Date, TotalInstallment: Int) {
+        self.typeOfInsurance=Type
+        self.provider=Provider
+        self.startDate=StartDate
+        self.endDate=EndDate
+        self.totalInstallmentAmount=TotalInstallment
+    }
+    
 }
