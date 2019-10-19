@@ -7,7 +7,9 @@
 //
 
 import Foundation
-class Internet: Bill{
+class Internet: Bill,IDisplay{
+  
+    
 var providerName : String
 var gbUsed : Float
 var billAmount : Float
@@ -17,8 +19,15 @@ var billAmount : Float
         self.gbUsed = gbUsed
         self.billAmount = billAmount
         super.init(billId: billId, billDate: billDate, billType: billType)
-        
-        
     }
+    
+    func printMyData() {
+        print("***************************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Provider Name : \(providerName)")
+        print("Data Used : \(gbUsed)")
+        print("Bill Amount : \(billAmount)")    }
     
 }
