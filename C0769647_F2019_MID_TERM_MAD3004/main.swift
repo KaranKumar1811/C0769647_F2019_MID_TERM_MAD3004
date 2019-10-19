@@ -23,18 +23,18 @@ var i2 = Internet(providerName: "Bell", gbUsed: 32.5, billId: "IBill2", billDate
 var h2 = Hydro(agencyName: "Power House", unitsConsumed: 345.6, billAmount: 442, billId: "HBill2", billType: Bill.Types.Hydro, billDate: date_3!)
 var c2 = Customer(customerId: "C02", firstName: "Sandeep ", lastName: "Singh", email: "sandeep@gmail.com", billDictionary : [i1.billId:i1,h1.billId:h1])
 
+var c3 = Customer(customerId: "C03", firstName: "Ankita ", lastName: "Jain", email: "Ankita@developer.com", billDictionary: [:])
 
 
 
 
 
+var customerDictionary = Dictionary<String,Customer>()
 
-var custDictionary = Dictionary<String,Customer>()
+customerDictionary.updateValue(c1, forKey: c1.customerId)
+customerDictionary.updateValue(c2, forKey: c2.customerId)
 
-custDictionary.updateValue(c1, forKey: c1.customerId)
-custDictionary.updateValue(c2, forKey: c2.customerId)
-
-for i in custDictionary.values{
+for i in customerDictionary.values{
     i.printMyData()
 }
 
