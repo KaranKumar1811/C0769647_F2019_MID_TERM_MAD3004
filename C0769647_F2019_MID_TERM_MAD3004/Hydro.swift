@@ -26,11 +26,11 @@ class Hydro : Bill
     
     override func printMyData() {
         print("***************************************")
-        print("Bill Id : \(billId)")
+        print("\nBill Id : \(billId)")
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Agency Name : \(agencyName)")
-        print("Unit Consumed : \(unitsConsumed)")
-        print("Bill Amount : \(billAmount)")    }
+        print("Unit Consumed : \(unitsConsumed.UnitFormat())")
+        print("Bill Amount : \(billAmount.currencyFormat())\n")    }
     
 }
