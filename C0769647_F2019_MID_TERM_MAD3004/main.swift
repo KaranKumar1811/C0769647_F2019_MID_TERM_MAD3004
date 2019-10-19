@@ -21,6 +21,7 @@ var c1 = Customer(customerId: "C01", firstName: "Karan ", lastName: "Kumar", ema
 
 var i2 = Internet(providerName: "Bell", gbUsed: 32.5, billId: "IBill2", billDate: date_1!, billAmount: 324.3, billType: Bill.Types.Internet)
 var h2 = Hydro(agencyName: "Power House", unitsConsumed: 345.6, billAmount: 442, billId: "HBill2", billType: Bill.Types.Hydro, billDate: date_3!)
+var c2 = Customer(customerId: "C02", firstName: "Sandeep ", lastName: "Singh", email: "sandeep@gmail.com", billDictionary : [i1.billId:i1,h1.billId:h1])
 
 
 
