@@ -32,6 +32,7 @@ var c2 = Customer(customerId: "C02", firstName: "Sandeep ", lastName: "Singh", e
 var custDictionary = Dictionary<String,Customer>()
 
 custDictionary.updateValue(c1, forKey: c1.customerId)
+custDictionary.updateValue(c2, forKey: c2.customerId)
 
 for i in custDictionary.values{
     i.printMyData()
