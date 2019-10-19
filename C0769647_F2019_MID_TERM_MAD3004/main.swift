@@ -23,5 +23,7 @@ var custDictionary = Dictionary<String,Customer>()
 
 custDictionary.updateValue(c1, forKey: c1.customerId)
 
-
+for i in custDictionary.values{
+    i.printMyData()
+}
 
