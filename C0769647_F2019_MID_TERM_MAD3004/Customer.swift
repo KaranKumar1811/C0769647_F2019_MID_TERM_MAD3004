@@ -33,7 +33,11 @@ class Customer : IDisplay
         
         print("\nCustomer Id : \(customerId)")
         print("Full Name : \(fullName)\n")
+        print("*********************    Bill Information    ********************\n")
         
-        
+        for i in billDictionary.values
+        {
+            i.printMyData()
+        }
     }
 }

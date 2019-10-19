@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Mobile : Bill, IDisplay{
+class Mobile : Bill{
     
     
     
@@ -28,8 +28,9 @@ class Mobile : Bill, IDisplay{
         super.init(billId: billId, billDate: billDate, billType: billType)
         }
     
-    func printMyData() {
-        print("*************************************************************")
+    override func printMyData() {
+        
+        
         print("Bill Id : \(billId)")
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")

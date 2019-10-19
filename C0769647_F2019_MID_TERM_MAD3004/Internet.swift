@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Internet: Bill,IDisplay{
+class Internet: Bill{
   
     
 var providerName : String
@@ -21,7 +21,7 @@ var billAmount : Float
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
-    func printMyData() {
+    override func printMyData() {
         print("***************************************")
         print("Bill Id : \(billId)")
         print("Bill Type : \(billType)")

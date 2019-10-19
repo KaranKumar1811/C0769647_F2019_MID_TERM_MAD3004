@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Hydro : Bill, IDisplay
+class Hydro : Bill
 {
     
     
@@ -24,7 +24,7 @@ class Hydro : Bill, IDisplay
         
     }
     
-    func printMyData() {
+    override func printMyData() {
         print("***************************************")
         print("Bill Id : \(billId)")
         print("Bill Type : \(billType)")
