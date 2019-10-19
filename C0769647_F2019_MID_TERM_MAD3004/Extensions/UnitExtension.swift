@@ -10,7 +10,7 @@ import Foundation
 
 extension Float
 {
-    func dataUnitFormat() -> String
+    func UnitFormat() -> String
     {
         return "\(self) Units"
     }
