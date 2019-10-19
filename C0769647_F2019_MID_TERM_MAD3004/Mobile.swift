@@ -29,6 +29,16 @@ class Mobile : Bill, IDisplay{
         }
     
     func printMyData() {
+        print("*************************************************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Manufacturer Name : \(String(describing: manufacturerName))")
+        print("Plan Name : \(String(describing: planName))")
+        print("Mobile number : \(String(describing: mobileNumber))")
+        print("Minutes used : \(String(describing: minutesUsed))")
+        print("Bill Amount : \(billAmount)")
+        print("Internet Used : \(String(describing: internetUsed))")
         
     }
 }
