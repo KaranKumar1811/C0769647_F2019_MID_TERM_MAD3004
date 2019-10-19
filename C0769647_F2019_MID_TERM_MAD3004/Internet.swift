@@ -23,11 +23,11 @@ var billAmount : Float
     
     override func printMyData() {
         print("******************************************************")
-        print("Bill Id : \(billId)")
+        print("\nBill Id : \(billId)")
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Provider Name : \(providerName)")
         print("Data Used : \(gbUsed.gbUsed())")
-        print("Bill Amount : \(billAmount.currencyFormat())")    }
+        print("Bill Amount : \(billAmount.currencyFormat())\n")    }
     
 }
