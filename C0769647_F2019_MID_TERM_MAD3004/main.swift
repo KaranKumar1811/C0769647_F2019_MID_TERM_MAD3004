@@ -17,7 +17,16 @@ let date_3 = formatter.date(from: "2015/02/07")?.dateFormat()
 var i1 = Internet(providerName: "Freedom", gbUsed: 63.2, billId: "IBill1", billDate: date_1!, billAmount: 118.0, billType: Bill.Types.Internet)
 var m1 = Mobile(manufacturerName: "Samsung", planName: "BigGig", mobileNumber: "0122344556", internetUsed: 12.4, minutesUsed: 334, billAmount: 234.5, billId: "MBill1", billType:Bill.Types.Mobile, billDate: date_2!)
 var h1 = Hydro(agencyName: "Toronto Power", unitsConsumed: 231.4, billAmount: 743, billId: "HBill1", billType: Bill.Types.Hydro, billDate: date_3!)
-var c1 = Customer(customerId: "C01", firstName: "Karan ", lastName: "Kumar", email: "@gmail.com", billDictionary : [i1.billId:i1,m1.billId:m1,h1.billId:h1])
+var c1 = Customer(customerId: "C01", firstName: "Karan ", lastName: "Kumar", email: "karan@gmail.com", billDictionary : [i1.billId:i1,m1.billId:m1,h1.billId:h1])
+
+var i2 = Internet(providerName: "Bell", gbUsed: 32.5, billId: "IBill2", billDate: date_1!, billAmount: 324.3, billType: Bill.Types.Internet)
+var h2 = Hydro(agencyName: "Power House", unitsConsumed: 345.6, billAmount: 442, billId: "HBill2", billType: Bill.Types.Hydro, billDate: date_3!)
+
+
+
+
+
+
 
 var custDictionary = Dictionary<String,Customer>()
 
