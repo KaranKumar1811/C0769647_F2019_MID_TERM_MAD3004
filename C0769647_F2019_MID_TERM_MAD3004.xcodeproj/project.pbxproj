@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9B778533235BB90600CBAE58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778532235BB90600CBAE58 /* main.swift */; };
+		9B77853A235BB9A400CBAE58 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778539235BB9A400CBAE58 /* Internet.swift */; };
+		9B77853C235BB9AE00CBAE58 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77853B235BB9AE00CBAE58 /* Mobile.swift */; };
+		9B77853E235BB9C300CBAE58 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77853D235BB9C300CBAE58 /* Hydro.swift */; };
+		9B778540235BB9D800CBAE58 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77853F235BB9D800CBAE58 /* Customer.swift */; };
+		9B778542235BB9EA00CBAE58 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778541235BB9EA00CBAE58 /* Bill.swift */; };
+		9B778544235BB9FC00CBAE58 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778543235BB9FC00CBAE58 /* IDisplay.swift */; };
+		9B778546235BBB2400CBAE58 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778545235BBB2400CBAE58 /* Insurance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		9B77852F235BB90600CBAE58 /* C0769647_F2019_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0769647_F2019_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B778532235BB90600CBAE58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B778539235BB9A400CBAE58 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9B77853B235BB9AE00CBAE58 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9B77853D235BB9C300CBAE58 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9B77853F235BB9D800CBAE58 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B778541235BB9EA00CBAE58 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9B778543235BB9FC00CBAE58 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9B778545235BBB2400CBAE58 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				9B778532235BB90600CBAE58 /* main.swift */,
+				9B778539235BB9A400CBAE58 /* Internet.swift */,
+				9B77853B235BB9AE00CBAE58 /* Mobile.swift */,
+				9B77853D235BB9C300CBAE58 /* Hydro.swift */,
+				9B77853F235BB9D800CBAE58 /* Customer.swift */,
+				9B778541235BB9EA00CBAE58 /* Bill.swift */,
+				9B778543235BB9FC00CBAE58 /* IDisplay.swift */,
+				9B778545235BBB2400CBAE58 /* Insurance.swift */,
 			);
 			path = C0769647_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -119,6 +140,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B77853E235BB9C300CBAE58 /* Hydro.swift in Sources */,
+				9B778540235BB9D800CBAE58 /* Customer.swift in Sources */,
+				9B778546235BBB2400CBAE58 /* Insurance.swift in Sources */,
+				9B77853C235BB9AE00CBAE58 /* Mobile.swift in Sources */,
+				9B778544235BB9FC00CBAE58 /* IDisplay.swift in Sources */,
+				9B77853A235BB9A400CBAE58 /* Internet.swift in Sources */,
+				9B778542235BB9EA00CBAE58 /* Bill.swift in Sources */,
 				9B778533235BB90600CBAE58 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
