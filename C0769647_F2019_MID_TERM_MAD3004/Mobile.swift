@@ -7,7 +7,9 @@
 //
 
 import Foundation
-class Mobile : Bill{
+class Mobile : Bill, IDisplay{
+    
+    
     
     var manufacturerName:String
     var planName:String
@@ -24,6 +26,10 @@ class Mobile : Bill{
         self.minutesUsed=minutesUsed
         self.billAmount=billAmount
         super.init(billId: billId, billDate: billDate, billType: billType)
+        }
+    
+    func printMyData() {
+        
     }
 }
 
