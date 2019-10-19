@@ -16,6 +16,7 @@
 		9B778544235BB9FC00CBAE58 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778543235BB9FC00CBAE58 /* IDisplay.swift */; };
 		9B778546235BBB2400CBAE58 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778545235BBB2400CBAE58 /* Insurance.swift */; };
 		9B778549235BC57D00CBAE58 /*  CurrencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */; };
+		9B77854B235BC66400CBAE58 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77854A235BC66400CBAE58 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		9B778543235BB9FC00CBAE58 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B778545235BBB2400CBAE58 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 		9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CurrencyExtension.swift"; sourceTree = "<group>"; };
+		9B77854A235BC66400CBAE58 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				9B778548235BC57D00CBAE58 /*  CurrencyExtension.swift */,
+				9B77854A235BC66400CBAE58 /* DateExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B77853E235BB9C300CBAE58 /* Hydro.swift in Sources */,
+				9B77854B235BC66400CBAE58 /* DateExtension.swift in Sources */,
 				9B778540235BB9D800CBAE58 /* Customer.swift in Sources */,
 				9B778546235BBB2400CBAE58 /* Insurance.swift in Sources */,
 				9B77853C235BB9AE00CBAE58 /* Mobile.swift in Sources */,
