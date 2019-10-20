@@ -48,16 +48,16 @@ for i in customerDictionary.values{
 
 
 
-func searchByID(Id: String) {
+
 for (k,v) in customerDictionary{
  
-    if(k == Id)
+    if(k == "C01")
     {
         
-        print("__________________________Search Result for Id \(Id)_____________________")
+        print("__________________________Search Result for Id _____________________")
         v.printMyData()
     }
-    }
+    
  }
 
 
