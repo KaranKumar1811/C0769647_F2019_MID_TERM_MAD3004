@@ -16,6 +16,7 @@ class Bill:IDisplay{
         case Internet
         case Hydro
         case Mobile
+        case Insurance
     }
     var billType : Types
     var totalBillAmount : Float = 0
