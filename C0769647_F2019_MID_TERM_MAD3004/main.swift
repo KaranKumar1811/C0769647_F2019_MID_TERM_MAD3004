@@ -45,3 +45,19 @@ for i in customerDictionary.values{
     i.printMyData()
 }
 
+
+
+
+func searchByID(Id: String) {
+for (k,v) in customerDictionary{
+ 
+    if(k == Id)
+    {
+        
+        print("__________________________Search Result for Id \(Id)_____________________")
+        v.printMyData()
+    }
+    }
+ }
+
+
