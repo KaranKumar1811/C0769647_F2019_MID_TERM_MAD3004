@@ -21,8 +21,9 @@ class Insurance:Bill
     var totalInstallmentAmount :Int
     {
         get
-        {   let time_interval=endDate.timeIntervalSince(startDate)
-            return Int(5*time_interval)
+        {
+            let time_interval=endDate.timeIntervalSince(startDate) // from Stack OverFlow
+            return Int(2*time_interval)
         }
     }
     
@@ -39,8 +40,8 @@ class Insurance:Bill
         print("******************************************************")
         print("\nTypeOfInsurance : \(typeOfInsurance)")
         print("Proveder: \(provider)")
-        print("Start Date : \(startDate)")
-        print("End Date : \(endDate)")
+        print("Start Date : \(startDate.dateFormat())")
+        print("End Date : \(endDate.dateFormat())")
         print("Total Installment : \(totalInstallmentAmount)\n")    }
     
 }

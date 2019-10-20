@@ -30,7 +30,7 @@ var c3 = Customer(customerId: "C03", firstName: "Ankita ", lastName: "Jain", ema
 
 var In1 = Insurance(Type: Insurance.typeInsurance.Home, Provider: "Life Gaurd Insurance", StartDate: startDateOfInsurance!, EndDate: endDateOfInsurance!, BillId: "Insure01", BillDate: (date_4?.dateFormat())!, billAmount: 627.23, BillType: Bill.Types.Insurance)
 
-var c4 = Customer(customerId: "C33", firstName: "Ankita ", lastName: "Jain", email: "Ankita@developer.com", billDictionary: [In1.billId:In1])
+var c4 = Customer(customerId: "C04", firstName: "Rahul ", lastName: "Kumar", email: "Rahul@abc.com", billDictionary: [In1.billId:In1])
 
 
 
