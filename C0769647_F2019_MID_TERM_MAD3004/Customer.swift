@@ -34,10 +34,10 @@ class Customer : IDisplay
         print("\nCustomer Id : \(customerId)")
         print("Full Name : \(fullName)")
         print("Email : \(email!)\n")
-        print("*********************    Bill Information    ********************\n")
+        print("*********************    Bill Information of \(fullName)   ********************\n")
         if billDictionary.count == 0
         {
-            print("The Customer Has No Bill\n")     
+            print("The Customer Has No Bill\n")
         }
         for i in billDictionary.values
         {
